@@ -150,7 +150,11 @@ ul {
     background-repeat: no-repeat;
     position: absolute;
 }
-
+@media (max-width: 767px) {
+  .dots{
+      display: none;
+  }
+}
 .dots-up {
     top: 200px;
     right: 0;
